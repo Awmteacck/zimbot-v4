@@ -9,6 +9,6 @@ WORKDIR /zimbot
 
 COPY . /zimbot
 
-RUN yarn
+RUN npm install
 
 CMD ["node", "."]
